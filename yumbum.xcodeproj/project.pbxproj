@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14952F084144B35A390D7C95 /* Pods_yumbum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED00FD55DCF5D5492D8949A /* Pods_yumbum.framework */; };
+		7769570C1C11009500A67EBD /* doughnut.png in Resources */ = {isa = PBXBuildFile; fileRef = 7769570B1C11009500A67EBD /* doughnut.png */; };
+		778ABBED1C10EA22004453A8 /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ABBEC1C10EA22004453A8 /* YelpClient.swift */; };
+		778ABBEF1C10EBF7004453A8 /* YelpPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ABBEE1C10EBF7004453A8 /* YelpPhotoCell.swift */; };
+		778ABBF11C10EC44004453A8 /* YelpPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ABBF01C10EC44004453A8 /* YelpPhotosViewController.swift */; };
+		778ABBF31C10ED1B004453A8 /* YelpData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ABBF21C10ED1B004453A8 /* YelpData.swift */; };
+		778ABBF51C10F0D9004453A8 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ABBF41C10F0D9004453A8 /* LocationManager.swift */; };
+		77A10EF61C10E93D009384CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A10EF51C10E93D009384CC /* AppDelegate.swift */; };
+		77A10EFB1C10E93D009384CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A10EF91C10E93D009384CC /* Main.storyboard */; };
+		77A10EFD1C10E93D009384CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A10EFC1C10E93D009384CC /* Assets.xcassets */; };
+		77A10F001C10E93D009384CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A10EFE1C10E93D009384CC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7769570B1C11009500A67EBD /* doughnut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doughnut.png; sourceTree = "<group>"; };
+		778ABBEC1C10EA22004453A8 /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
+		778ABBEE1C10EBF7004453A8 /* YelpPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpPhotoCell.swift; sourceTree = "<group>"; };
+		778ABBF01C10EC44004453A8 /* YelpPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpPhotosViewController.swift; sourceTree = "<group>"; };
+		778ABBF21C10ED1B004453A8 /* YelpData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpData.swift; sourceTree = "<group>"; };
+		778ABBF41C10F0D9004453A8 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		77A10EF21C10E93D009384CC /* yumbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yumbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A10EF51C10E93D009384CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77A10EFA1C10E93D009384CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77A10EFC1C10E93D009384CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77A10EFF1C10E93D009384CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77A10F011C10E93D009384CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		973A0D6ECF0BF397C8F403D6 /* Pods-yumbum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yumbum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yumbum/Pods-yumbum.debug.xcconfig"; sourceTree = "<group>"; };
+		D0B7A00774C7DFD0D7EB8E7A /* Pods-yumbum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yumbum.release.xcconfig"; path = "Pods/Target Support Files/Pods-yumbum/Pods-yumbum.release.xcconfig"; sourceTree = "<group>"; };
+		FED00FD55DCF5D5492D8949A /* Pods_yumbum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yumbum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77A10EEF1C10E93D009384CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14952F084144B35A390D7C95 /* Pods_yumbum.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7769570A1C11008200A67EBD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7769570B1C11009500A67EBD /* doughnut.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		77A10EE91C10E93C009384CC = {
+			isa = PBXGroup;
+			children = (
+				77A10EF41C10E93D009384CC /* yumbum */,
+				77A10EF31C10E93D009384CC /* Products */,
+				DC03D5E578AA4EB54B9065A7 /* Pods */,
+				EFEA96FBABD5B0C0D7ABE663 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		77A10EF31C10E93D009384CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77A10EF21C10E93D009384CC /* yumbum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77A10EF41C10E93D009384CC /* yumbum */ = {
+			isa = PBXGroup;
+			children = (
+				77A10EF51C10E93D009384CC /* AppDelegate.swift */,
+				778ABBEC1C10EA22004453A8 /* YelpClient.swift */,
+				778ABBF41C10F0D9004453A8 /* LocationManager.swift */,
+				778ABBF21C10ED1B004453A8 /* YelpData.swift */,
+				778ABBF01C10EC44004453A8 /* YelpPhotosViewController.swift */,
+				778ABBEE1C10EBF7004453A8 /* YelpPhotoCell.swift */,
+				77A10EF91C10E93D009384CC /* Main.storyboard */,
+				77A10EFC1C10E93D009384CC /* Assets.xcassets */,
+				77A10EFE1C10E93D009384CC /* LaunchScreen.storyboard */,
+				77A10F011C10E93D009384CC /* Info.plist */,
+				7769570A1C11008200A67EBD /* Images */,
+			);
+			path = yumbum;
+			sourceTree = "<group>";
+		};
+		DC03D5E578AA4EB54B9065A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				973A0D6ECF0BF397C8F403D6 /* Pods-yumbum.debug.xcconfig */,
+				D0B7A00774C7DFD0D7EB8E7A /* Pods-yumbum.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFEA96FBABD5B0C0D7ABE663 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FED00FD55DCF5D5492D8949A /* Pods_yumbum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77A10EF11C10E93D009384CC /* yumbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A10F041C10E93D009384CC /* Build configuration list for PBXNativeTarget "yumbum" */;
+			buildPhases = (
+				D2B82FA16F8B952FD0ED96AF /* Check Pods Manifest.lock */,
+				77A10EEE1C10E93D009384CC /* Sources */,
+				77A10EEF1C10E93D009384CC /* Frameworks */,
+				77A10EF01C10E93D009384CC /* Resources */,
+				8AC80E510F30CFF418D8B545 /* Embed Pods Frameworks */,
+				12C70C519755E8559811C893 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yumbum;
+			productName = yumbum;
+			productReference = 77A10EF21C10E93D009384CC /* yumbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77A10EEA1C10E93C009384CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Yoko Yamaguchi";
+				TargetAttributes = {
+					77A10EF11C10E93D009384CC = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = UK24N397T7;
+					};
+				};
+			};
+			buildConfigurationList = 77A10EED1C10E93C009384CC /* Build configuration list for PBXProject "yumbum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77A10EE91C10E93C009384CC;
+			productRefGroup = 77A10EF31C10E93D009384CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77A10EF11C10E93D009384CC /* yumbum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77A10EF01C10E93D009384CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A10F001C10E93D009384CC /* LaunchScreen.storyboard in Resources */,
+				7769570C1C11009500A67EBD /* doughnut.png in Resources */,
+				77A10EFD1C10E93D009384CC /* Assets.xcassets in Resources */,
+				77A10EFB1C10E93D009384CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12C70C519755E8559811C893 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yumbum/Pods-yumbum-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AC80E510F30CFF418D8B545 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yumbum/Pods-yumbum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2B82FA16F8B952FD0ED96AF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77A10EEE1C10E93D009384CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778ABBF31C10ED1B004453A8 /* YelpData.swift in Sources */,
+				778ABBED1C10EA22004453A8 /* YelpClient.swift in Sources */,
+				778ABBF51C10F0D9004453A8 /* LocationManager.swift in Sources */,
+				778ABBF11C10EC44004453A8 /* YelpPhotosViewController.swift in Sources */,
+				778ABBEF1C10EBF7004453A8 /* YelpPhotoCell.swift in Sources */,
+				77A10EF61C10E93D009384CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77A10EF91C10E93D009384CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77A10EFA1C10E93D009384CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77A10EFE1C10E93D009384CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77A10EFF1C10E93D009384CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77A10F021C10E93D009384CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77A10F031C10E93D009384CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77A10F051C10E93D009384CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 973A0D6ECF0BF397C8F403D6 /* Pods-yumbum.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = yumbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yamag104.yumbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		77A10F061C10E93D009384CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0B7A00774C7DFD0D7EB8E7A /* Pods-yumbum.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = yumbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yamag104.yumbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77A10EED1C10E93C009384CC /* Build configuration list for PBXProject "yumbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A10F021C10E93D009384CC /* Debug */,
+				77A10F031C10E93D009384CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77A10F041C10E93D009384CC /* Build configuration list for PBXNativeTarget "yumbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A10F051C10E93D009384CC /* Debug */,
+				77A10F061C10E93D009384CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77A10EEA1C10E93C009384CC /* Project object */;
+}
