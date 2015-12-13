@@ -21,20 +21,15 @@ class YelpPhotosViewController: UICollectionViewController {
         self.collectionView?.reloadData()
     }
     
-    //1
     override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 3
     }
     
-    //2
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return searches.count
     }
     
-    //3
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        NSLog("Size: \(searches.count)")
-        //1
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! YelpPhotoCell
         if searches.count > 0 {
             let yelp = searches[indexPath.row] as YelpData

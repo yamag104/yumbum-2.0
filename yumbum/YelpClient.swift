@@ -43,13 +43,10 @@ class YelpClient {
                         if jsonResult is NSDictionary {
                             let json = jsonResult as! NSDictionary
                             let results = json.valueForKey("businesses")! as! NSArray
-//                            print(results)
                             for value in results {
                                 let yelp = YelpData()
                                 yelp.name = value.valueForKey("name") as! String
-//                                NSLog("Name: \(yelp.name)")
                                 yelp.imageUrl = NSURL(string: value.valueForKey("image_url") as! String)!
-//                                NSLog("ImageURL: \(yelp.imageUrl)")
                                 let location = value.valueForKey("location") as! NSDictionary
                                 yelp.address = (location.valueForKey("address") as! Array).joinWithSeparator(",")
                                 yelp.city = location.valueForKey("city") as! String
